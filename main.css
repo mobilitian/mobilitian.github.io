@@ -1,0 +1,43 @@
+/* Selector(태그,id,class등)을 적고 중괄호를 열고  */
+
+h1{
+    /* CSS 속성-값을 쌍으로 적어주고 세미콜론(;)을 붙입니다 */
+    color: lightcoral;
+    /* 글꼴굵기입니다 */
+    font-weight: 100;
+}
+
+img{
+    width: 350px;
+}
+
+/* class는 .으로 시작합니다. ID는 #으로 시작합니다 */
+
+
+.skill{
+    color: rebeccapurple;
+    font-style: italic;
+}
+
+/* UL 밑에 있는 skill만 적용해보자. 
+그냥 한칸 띄면 자식이 적용됨 
+ex) body > .skill vs body .skill    */
+
+ul > .skill{
+    color: brown;
+}
+
+
+
+#java{
+    color: red;
+}
+
+#h1{
+    background-color: blue;
+}
+
+#intro{
+    background-color: aquamarine;
+    color: aliceblue;
+}
